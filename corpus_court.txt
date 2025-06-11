@@ -1,0 +1,9 @@
+Les arbres sont des structures de données fondamentales en informatique. Ils permettent de représenter des hiérarchies et d'organiser les données de manière efficace. Un arbre binaire est un type d'arbre où chaque nœud a au plus deux enfants, généralement désignés comme enfant gauche et enfant droit.
+
+Un arbre binaire de recherche est un cas particulier d'arbre binaire où les valeurs des nœuds respectent une propriété d'ordre : pour chaque nœud, toutes les valeurs dans son sous-arbre gauche sont inférieures à sa propre valeur, et toutes les valeurs dans son sous-arbre droit sont supérieures à sa propre valeur.
+
+Les arbres rouge-noir et les arbres AVL sont des types d'arbres binaires de recherche équilibrés qui garantissent une hauteur logarithmique, assurant ainsi des opérations efficaces de recherche, d'insertion et de suppression.
+
+Les arbres binaires peuvent être parcourus de différentes manières : en profondeur d'abord (préordre, inordre, postordre) ou en largeur d'abord. Chaque méthode de parcours a ses propres applications et avantages selon le contexte d'utilisation.
+
+Les tas binaires sont un autre type d'arbre binaire utilisé principalement pour implémenter des files de priorité. Un tas binaire peut être un tas min, où la valeur de chaque nœud est inférieure ou égale à celle de ses enfants, ou un tas max, où la valeur de chaque nœud est supérieure ou égale à celle de ses enfants.

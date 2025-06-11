@@ -1,0 +1,27 @@
+Les algorithmes de tri constituent une classe fondamentale d'algorithmes en informatique. Leur rôle est d'organiser des éléments dans un ordre spécifique, généralement numérique ou lexicographique. L'efficacité de ces algorithmes est cruciale pour de nombreuses applications, des bases de données aux systèmes de recherche.
+
+Le tri par insertion est l'un des algorithmes de tri les plus simples. Son principe de fonctionnement s'inspire de la façon dont nous trions naturellement des cartes à jouer dans notre main. Pour chaque élément du tableau à trier, l'algorithme l'insère à sa position correcte parmi les éléments déjà triés. Bien que simple, sa complexité temporelle est quadratique dans le pire des cas, ce qui le rend inefficace pour de grands ensembles de données.
+
+Le tri fusion, quant à lui, adopte une approche diviser pour régner. Il divise récursivement le tableau en deux moitiés, trie chaque moitié, puis fusionne les deux moitiés triées. Sa complexité temporelle est en O(n log n) dans tous les cas, ce qui en fait un algorithme beaucoup plus efficace que le tri par insertion pour les grands tableaux. Cependant, il nécessite un espace mémoire supplémentaire proportionnel à la taille du tableau.
+
+Le tri rapide est également basé sur le principe diviser pour régner. Il choisit un élément pivot et partitionne le tableau en deux parties : les éléments inférieurs au pivot et ceux supérieurs au pivot. Il trie ensuite récursivement ces deux parties. Sa complexité moyenne est en O(n log n), mais peut atteindre O(n²) dans le pire des cas. Malgré cela, il est souvent plus rapide en pratique que le tri fusion car il a une constante cachée plus petite.
+
+Les arbres binaires de recherche sont des structures de données arborescentes où chaque nœud a au plus deux enfants, et tous les nœuds dans le sous-arbre gauche d'un nœud ont des valeurs inférieures à celle du nœud, tandis que tous les nœuds dans le sous-arbre droit ont des valeurs supérieures. Cette propriété permet une recherche, une insertion et une suppression efficaces, toutes en O(log n) en moyenne pour un arbre équilibré.
+
+Cependant, les arbres binaires de recherche peuvent dégénérer en listes chaînées si les insertions sont effectuées dans un ordre trié, résultant en une complexité temporelle de O(n) pour les opérations. Pour remédier à ce problème, des variantes autoéquilibrantes comme les arbres AVL ou les arbres rouge-noir ont été développées.
+
+Les arbres AVL sont des arbres binaires de recherche où la différence de hauteur entre les sous-arbres gauche et droit de chaque nœud ne dépasse jamais un. Cette propriété est maintenue par des rotations lors des insertions et suppressions. Les arbres rouge-noir, quant à eux, utilisent un mécanisme différent basé sur la coloration des nœuds et des règles spécifiques pour les rotations.
+
+Les tas binaires sont une autre structure d'arbre importante, utilisée notamment dans l'algorithme de tri par tas. Un tas binaire est un arbre binaire complet où chaque nœud a une valeur supérieure ou égale (dans un tas max) ou inférieure ou égale (dans un tas min) à celles de ses enfants. Cette propriété permet d'extraire efficacement l'élément de valeur maximale ou minimale.
+
+Le tri par tas utilise cette structure pour trier un tableau. Il construit d'abord un tas à partir du tableau, puis extrait répétitivement l'élément racine (le maximum dans un tas max) et le place à la fin du tableau. Sa complexité temporelle est en O(n log n) dans tous les cas.
+
+Les arbres B et B+ sont des généralisations des arbres binaires de recherche qui permettent à un nœud d'avoir plus de deux enfants. Ils sont particulièrement utiles pour les systèmes de stockage externes comme les bases de données, où les accès au disque sont coûteux. En ayant plus d'enfants par nœud, ces arbres réduisent la hauteur et donc le nombre d'accès au disque nécessaires pour les opérations.
+
+Le hachage est une technique qui permet d'accéder directement aux données sans recherche séquentielle. Il utilise une fonction de hachage pour mapper les clés à des indices dans un tableau. Bien que simple en concept, les collisions (plusieurs clés mappées au même indice) nécessitent des mécanismes de résolution comme le chaînage ou l'adressage ouvert.
+
+Les graphes sont des structures de données qui modélisent un ensemble d'objets interconnectés. Ils sont composés de nœuds (ou sommets) et d'arêtes reliant ces nœuds. Les graphes peuvent être dirigés ou non dirigés, pondérés ou non pondérés. Les algorithmes sur les graphes incluent la recherche de plus court chemin (comme l'algorithme de Dijkstra), la recherche d'arbre couvrant minimal (comme l'algorithme de Kruskal) et la détection de cycles.
+
+La programmation dynamique est une technique qui résout des problèmes en les décomposant en sous-problèmes plus simples et en stockant les résultats de ces sous-problèmes pour éviter de les recalculer. Elle est utilisée pour résoudre des problèmes d'optimisation où la solution optimale peut être construite à partir de solutions optimales de sous-problèmes.
+
+En résumé, les structures de données et les algorithmes sont des outils essentiels pour résoudre efficacement des problèmes informatiques. Le choix de la structure ou de l'algorithme approprié dépend des contraintes spécifiques du problème, comme la taille des données, les opérations fréquentes et les ressources disponibles.
