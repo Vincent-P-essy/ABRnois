@@ -1,0 +1,75 @@
+$ ./abrnois -n 8 frequents-capture.txt corpus_court.txt
+Lecture du fichier corpus_court.txt...
+Total des mots insérés : 209
+Total des occurrences : 209
+Nombre de mots extraits : 63
+Résultats écrits dans frequents-capture.txt
+
+Exit: 0
+
+$ cat frequents-capture.txt
+de 6.70%
+des 2.87%
+et 2.87%
+ainsi 0.48%
+assurant 0.48%
+au 0.48%
+cas 0.48%
+comme 0.48%
+d'arbres 0.48%
+d'ordre 0.48%
+d'organiser 0.48%
+deux 0.48%
+désignés 0.48%
+efficace 0.48%
+files 0.48%
+garantissent 0.48%
+généralement 0.48%
+hiérarchies 0.48%
+ils 0.48%
+informatique 0.48%
+inférieures 0.48%
+largeur 0.48%
+logarithmique 0.48%
+manière 0.48%
+nœuds 0.48%
+parcours 0.48%
+parcourus 0.48%
+particulier 0.48%
+permettent 0.48%
+principalement 0.48%
+profondeur 0.48%
+propres 0.48%
+propriét 0.48%
+représenter 0.48%
+selon 0.48%
+structures 0.48%
+types 0.48%
+utilis 0.48%
+applications 0.48%
+autre 0.48%
+avantages 0.48%
+avl 0.48%
+contexte 0.48%
+d'insertion 0.48%
+d'utilisation 0.48%
+différentes 0.48%
+fondamentales 0.48%
+hauteur 0.48%
+implémenter 0.48%
+inférieure 0.48%
+le 0.48%
+manières 0.48%
+opérations 0.48%
+peut 0.48%
+peuvent 0.48%
+plus 0.48%
+priorit 0.48%
+préordre 0.48%
+qui 0.48%
+quilibrés 0.48%
+respectent 0.48%
+suppression 0.48%
+supérieures 0.48%
+
+Exit: 0

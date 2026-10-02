@@ -1,5 +1,11 @@
 # Guide d'instructions - ABRnois
 
+## Execution preview
+
+![ABRnois execution](docs/screenshots/execution.png)
+
+Local execution of `./abrnois -n 8 frequents-capture.txt corpus_court.txt`. The input and output shown come from the repository example or test fixtures. [Verification](docs/verification.md).
+
 ## 1. Compilation du programme
 
 Pour compiler le programme `abrnois.c`, utilisez la commande suivante :

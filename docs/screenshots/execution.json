@@ -1,0 +1,12 @@
+[
+  {
+    "command": "./abrnois -n 8 frequents-capture.txt corpus_court.txt",
+    "exit": 0,
+    "output": "Lecture du fichier corpus_court.txt...\nTotal des mots insérés : 209\nTotal des occurrences : 209\nNombre de mots extraits : 63\nRésultats écrits dans frequents-capture.txt\n"
+  },
+  {
+    "command": "cat frequents-capture.txt",
+    "exit": 0,
+    "output": "de 6.70%\ndes 2.87%\net 2.87%\nainsi 0.48%\nassurant 0.48%\nau 0.48%\ncas 0.48%\ncomme 0.48%\nd'arbres 0.48%\nd'ordre 0.48%\nd'organiser 0.48%\ndeux 0.48%\ndésignés 0.48%\nefficace 0.48%\nfiles 0.48%\ngarantissent 0.48%\ngénéralement 0.48%\nhiérarchies 0.48%\nils 0.48%\ninformatique 0.48%\ninférieures 0.48%\nlargeur 0.48%\nlogarithmique 0.48%\nmanière 0.48%\nnœuds 0.48%\nparcours 0.48%\nparcourus 0.48%\nparticulier 0.48%\npermettent 0.48%\nprincipalement 0.48%\nprofondeur 0.48%\npropres 0.48%\npropriét 0.48%\nreprésenter 0.48%\nselon 0.48%\nstructures 0.48%\ntypes 0.48%\nutilis 0.48%\napplications 0.48%\nautre 0.48%\navantages 0.48%\navl 0.48%\ncontexte 0.48%\nd'insertion 0.48%\nd'utilisation 0.48%\ndifférentes 0.48%\nfondamentales 0.48%\nhauteur 0.48%\nimplémenter 0.48%\ninférieure 0.48%\nle 0.48%\nmanières 0.48%\nopérations 0.48%\npeut 0.48%\npeuvent 0.48%\nplus 0.48%\npriorit 0.48%\npréordre 0.48%\nqui 0.48%\nquilibrés 0.48%\nrespectent 0.48%\nsuppression 0.48%\nsupérieures 0.48%\n"
+  }
+]
