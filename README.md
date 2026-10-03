@@ -1,10 +1,14 @@
 # Guide d'instructions - ABRnois
 
-## Execution preview
+## Visualisation
 
-![ABRnois execution](docs/screenshots/execution.png)
+![Arbre de mots et de fréquences généré par ABRnois](docs/screenshots/tree-visualization.png)
 
-Local execution of `./abrnois -n 8 frequents-capture.txt corpus_court.txt`. The input and output shown come from the repository example or test fixtures. [Verification](docs/verification.md).
+Visualisation produite par le programme avec l’option `-g`, à partir de `corpus_court.txt`. L’image est un rendu du fichier `insertion_15.pdf` généré pendant cette exécution.
+
+```bash
+./abrnois -g -n 8 frequents.txt corpus_court.txt
+```
 
 ## 1. Compilation du programme
 
